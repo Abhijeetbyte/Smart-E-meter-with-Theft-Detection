@@ -38,7 +38,7 @@ void setup()
   // Debug console
   Serial.begin(9600);
   WiFi.begin();
-  Blynk.begin(auth, ssid, pass);
+  Blynk.begin(auth, ssid, pass, IPAddress(192,168,2,184));// Put you Local machine IPAddress if using Local Machine as server
 
   // ZMPT101B sensor connected to GPIO 35
   emon.voltage(35, vCalibration, 1.7); // Voltage: input pin, calibration, phase_shift

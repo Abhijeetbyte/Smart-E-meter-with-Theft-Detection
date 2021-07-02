@@ -38,7 +38,7 @@ void setup()
 {
   // Debug console
   Serial.begin(9600);
-  Blynk.begin(auth, ssid, pass);
+   Blynk.begin(auth, ssid, pass, IPAddress(192,168,2,184));// Put you Local machine IPAddress if using Local Machine as server
 
   pinMode(Relay, OUTPUT);
 

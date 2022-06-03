@@ -36,7 +36,9 @@ I need to select the current sensor as well as the voltage sensor so that the cu
 ![img5](Images/Electricity-Meter-Circuit-Diagram.png)</br>
 
 Consumer side meter Schematics same for the Distribution side except for Relay (only use on the consumer side). Current Sensor & ZMPT101B Voltage Sensor VCC is connected to Vin of ESP32 which is a 5V Supply. The GND pin of both the modules is connected to the GND of ESP32. The output analog pin of the ZMPT101B Voltage Sensor and Current Sensor is connected to ESP32. The voltage sensor is connected in parallel with mains and the Current Sensor in series, also the relay as a switch for the output.</br>
-
+## References
+* **[Solarduino](https://solarduino.com/how-to-combine-values-from-different-nodemcu-using-blynk-app-for-online-monitoring/)**
+* **[Blynk docs](http://docs.blynk.cc/#widgets-other-bridge)**
 
 ## License
 

@@ -2,7 +2,7 @@
 
 ### Description:
 
-The project is basically to detect the theft from the energy meter used in households as well as in the commercial sector. There is two based meter one for distribution line and one for the consumer side. Whenever the distribution line load reading does not matches the consumer side reading; that means there is some kind of power leakage in between distribution and consumer line, leads to differences in energy readings, and theft will be detected. When the theft will occur, a notification will be sent to the app and consumer side power will be cut off. The data send to the Blynk Application Dashboard and display's the Voltage, Current, Power & total unit consumed in kWh with theft detection alert.</br>
+The project is basically to detect the electricity theft from the electricity meters used in households as well as in the commercial sector. There are two energy monitoring meter were used in this system,one for the distribution line and another one for the consumer side. The system consists of a master meter and one or multiple slave meters connected together with the help of a network. Whenever the distribution line load reading does not matches the consumer side readings; that means there is some kind of power leakage in between distribution and consumer line, leads to differences in energy readings, and theft will be detected. When the theft will occur, a notification will be sent to the app and consumer side power will be cut off. The data send to the Blynk Application Dashboard and display's the Voltage, Current, Power & total unit consumed in kWh with theft detection alert.</br>
 </br>
 ![img1](Images/Smart-Meter.jpg)</br></br>
 
